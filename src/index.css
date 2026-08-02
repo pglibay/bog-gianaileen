@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme {
+  --color-blush: #FBF3F0;
+  --color-dusty-rose: #C08497;
+}
