@@ -10,17 +10,18 @@ const PageOne = () => {
         <div className="text-center">
             <div className="pb-6">
                 <p className="font-bold font-serif">Mass Presider</p>
-                <p>Rev. Fr. Niño Maconrey E. Supremo, JCL</p>
+                <p>Fr. Agerio V. Paña</p>
             </div>
             <div className="grid grid-cols-2 gap-4 pb-6">
                 <div className="text-right">
-                    <p className="font-bold font-serif">Mother of the Groom</p>
-                    <p>Mrs. Adelfa Pingol</p>
+                    <p className="font-bold font-serif">Parents of the Groom</p>
+                    <p>Mr. Arnulfo S. Sansan</p>
+                    <p>Mrs. Gigi I. Sansan</p>
                 </div>
                 <div className="text-left">
                     <p className="font-bold font-serif">Parents of the Bride</p>
-                    <p>Mr. Mario Israel</p>
-                    <p>Mrs. Milagros Israel</p>
+                    <p>Mr. Gaudioso Lancila</p>
+                    <p>Mrs. Estrellita A. Lancila</p>
                 </div>
             </div>
 
@@ -50,8 +51,8 @@ const PageOne = () => {
 
 const PageTwo = () => {
     const party = {
-        male: ["Engr. Aljun Llanto", "Engr. Mark Ross Kelp Israel", "Mr. Amadeo Pingol", "Mr. Jojo Hitosis"],
-        female: ["Engr. Mary Rose Sheena Israel", "Ar. Kesha Abigail Igot", "Ms. Alpha Rose Pingol", "Ms. Lez Joucell Caballo"]
+        male: ["Kenneth Agripo", "Raymond Abellanosa", "Karl Patrick A. Galbo", "Nelson Agripo Jr.", "Mark Ross Kelp B. Israel", "Jeff Kenneth L. Duran"],
+        female: ["Claire Jezreel I. Iyog", "Cynthia Manding", "Mary Rose Sheena B. Israel", "Mailyn G. Pacquiao", "Glorielene Mijares", "Mary Rose Rhofian Israel"]
     }
 
     return (
@@ -59,15 +60,15 @@ const PageTwo = () => {
             <div className="grid grid-cols-2 gap-4 pb-6">
                 <div className="text-right">
                     <p className="font-bold font-serif">Best Man</p>
-                    <p>Mr. Genesis Durango</p>
+                    <p>Mr. Gerald L. Grado</p>
                 </div>
                 <div className="text-left">
                     <p className="font-bold font-serif">Maid of Honor</p>
-                    <p>Engr. Mary Rose Rhofian Israel</p>
+                    <p>Ms. Jenny Agripo</p>
                 </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-4 pb-12">
+            <div className="grid grid-cols-2 gap-4 pb-8">
                 <div className="text-right">
                     <p className="font-bold font-serif mb-1">Groomsmen</p>
                     <ul className="space-y-2">
@@ -91,20 +92,20 @@ const PageTwo = () => {
                     Secondary Sponsors
                 </p>
                 <div className="pb-4">
-                    <p className="font-bold font-serif">Veil</p>
-                    <p>Mr. Jose Melvin Celmar</p>
-                    <p>Mrs. Mary Rose Riscille Celmar</p>
+                    <p className="font-bold font-serif">Candle</p>
+                    <p>Mr. Jose Melvin V. Celmar</p>
+                    <p>Mrs. Mary Rose Riscille I. Celmar</p>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                     <div>
-                        <p className="font-bold font-serif">Candle</p>
-                        <p>Mr. Glenn Henry Baclay</p>
-                        <p>Mrs. Riezl Baclay</p>
+                        <p className="font-bold font-serif">Veil</p>
+                        <p>Mr. Rechie T. Caliso</p>
+                        <p>Mrs. Carloe Niña T. Caliso</p>
                     </div>
                     <div>
                         <p className="font-bold font-serif">Cord</p>
-                        <p>Mr. Reynan Quinlog</p>
-                        <p>Mrs. Gladys Jean Quinlog</p>
+                        <p>Mr. Vincy Irenie A. Polinar</p>
+                        <p>Mrs. Xandra Ysabelle E. Polinar</p>
                     </div>
                 </div>
             </div>
@@ -112,16 +113,16 @@ const PageTwo = () => {
             <div className="text-center pb-6">
                 <div className="pb-4">
                     <p className="font-bold font-serif">Ring Bearer</p>
-                    <p>Joseph Kairus Celmar</p>
+                    <p>Eurelle Peterich T. Caliso</p>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                     <div>
                         <p className="font-bold font-serif">Coin Bearer</p>
-                        <p>Mark Geordel Ibarra</p>
+                        <p>Rohan Matthew S. Narbay</p>
                     </div>
                     <div>
                         <p className="font-bold font-serif">Bible Bearer</p>
-                        <p>Sean Gabriel Quinlog</p>
+                        <p>Joseph Kairus I. Celmar </p>
                     </div>
                 </div>
             </div>
@@ -220,16 +221,16 @@ const Entourage = () => {
         <section id="entourage" className="container min-h-[calc(100dvh-64px)] max-w-7xl scroll-mt-16 p-10 mx-auto flex flex-col justify-center">
             <div className="max-w-6xl mx-auto w-full">
     
-                <div className="text-center mb-12">
-                    <h2 className="text-2xl md:text-5xl font-serif text-slate-800 mb-4">The Entourage</h2>
-                    <div className="h-1 w-24 bg-gold mx-auto"></div>
+                <div className="text-center mb-4">
+                    <h2 className="text-2xl md:text-5xl font-serif text-slate-800 mb-2">The Entourage</h2>
+                    <div className="h-1 w-24 bg-dusty-rose mx-auto"></div>
                 </div>
 
                 <div className="relative">
                     <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 flex justify-between pointer-events-none">
                         <button 
                             onClick={prev} 
-                            className="pointer-events-auto transition-all text-gold"
+                            className="pointer-events-auto transition-all text-dusty-rose"
                             aria-label="Previous Page"
                             >
                             <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -238,7 +239,7 @@ const Entourage = () => {
                         </button>
                         <button 
                             onClick={next}
-                            className="pointer-events-auto transition-all text-gold"
+                            className="pointer-events-auto transition-all text-dusty-rose"
                         >
                             <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -257,7 +258,7 @@ const Entourage = () => {
                         key={i}
                         onClick={() => setCurrentIndex(i)}
                         className={`h-1.5 rounded-full transition-all duration-300 ${
-                        i === currentIndex ? 'w-10 bg-gold' : 'w-4 bg-slate-200'
+                        i === currentIndex ? 'w-10 bg-dusty-rose' : 'w-4 bg-slate-200'
                         }`}
                     />
                     ))}
