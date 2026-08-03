@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from 'react';
 import { PlayIcon, PauseIcon } from "@heroicons/react/24/solid";
 
 const Rsvp = () => {
-  const weddingDate = new Date('2026-05-09T14:00:00').getTime();
+  const weddingDate = new Date('2026-09-26T14:00:00').getTime();
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0, hours: 0, minutes: 0, seconds: 0
