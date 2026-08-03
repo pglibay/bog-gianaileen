@@ -111,18 +111,24 @@ const PageTwo = () => {
             </div>
 
             <div className="text-center pb-6">
-                <div className="pb-4">
-                    <p className="font-bold font-serif">Ring Bearer</p>
-                    <p>Eurelle Peterich T. Caliso</p>
+                <div className="grid grid-cols-2 gap-4 pb-4">
+                    <div className="text-right">
+                        <p className="font-bold font-serif">Bible Bearer</p>
+                        <p>Joseph Kairus I. Celmar </p>
+                    </div>
+                    <div className="text-left">
+                        <p className="font-bold font-serif">Ring Bearer</p>
+                        <p>Eurelle Peterich T. Caliso</p>
+                    </div>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
-                    <div>
+                    <div className="text-right">
                         <p className="font-bold font-serif">Coin Bearer</p>
                         <p>Rohan Matthew S. Narbay</p>
                     </div>
-                    <div>
-                        <p className="font-bold font-serif">Bible Bearer</p>
-                        <p>Joseph Kairus I. Celmar </p>
+                    <div className="text-left">
+                        <p className="font-bold font-serif">Banner Bearer</p>
+                        <p>Rhea A. Narbay</p>
                     </div>
                 </div>
             </div>
@@ -132,7 +138,7 @@ const PageTwo = () => {
 
 const PageThree = () => (
     <div className="text-center">
-        <div className="text-center pb-8">
+        <div className="text-center pb-4">
             <p className="font-serif font-bold text-center">
                 Flower Girls
             </p>
@@ -145,10 +151,6 @@ const PageThree = () => (
                     <p>Fiamae D. Talaboc</p>
                     <p>Jomaine D. Macabudbud</p>
                 </div>
-            </div>
-            <div>
-                <p className="font-bold font-serif">Banner Bearer</p>
-                <p>Rhea A. Narbay</p>
             </div>
         </div>
         <div className="pb-2">
