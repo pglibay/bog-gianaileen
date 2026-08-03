@@ -2,6 +2,8 @@ import {
   UserCircleIcon,
   HeartIcon,
   UserGroupIcon,
+  ClockIcon,
+  ClipboardDocumentListIcon,
 } from "@heroicons/react/24/outline";
 import type { ComponentType } from "react";
 
@@ -21,6 +23,8 @@ import Banner from "../components/banner";
 import Couple from "../components/couple";
 import Story from "../components/story";
 import Entourage from "../components/entourage";
+import Details from "../components/details";
+import Rsvp from "../components/rsvp";
 
 export const SECTIONS: SectionConfig[] = [
   {
@@ -41,6 +45,16 @@ export const SECTIONS: SectionConfig[] = [
     id: "entourage",
     Component: Entourage,
     navItem: { label: "The Entourage",   Icon: UserGroupIcon },
+  },
+  {
+    id: "details",
+    Component: Details,
+    navItem: { label: "Wedding Details", Icon: ClockIcon },
+  },
+  {
+    id: "rsvp",
+    Component: Rsvp,
+    navItem: { label: "RSVP",            Icon: ClipboardDocumentListIcon },
   },
 ];
 

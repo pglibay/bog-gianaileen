@@ -136,47 +136,48 @@ const PageThree = () => (
             <p className="font-serif font-bold text-center">
                 Flower Girls
             </p>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4 mb-4">
                 <div className="text-right">
-                    <p>Mary Kaitlyn Celmar</p>
-                    <p>Keeva Beatrice Quiño</p>
+                    <p>Mary Kaitlyn I. Celmar</p>
+                    <p>Aubrielle Fatima T. Caliso</p>
                 </div>
                 <div className="text-left">
-                    <p>Mary Kylee Orapa</p>
-                    <p>Nirvana Rianzo</p>
+                    <p>Fiamae D. Talaboc</p>
+                    <p>Jomaine D. Macabudbud</p>
                 </div>
             </div>
-            <p>Veronica Astraia Barro</p>
+            <div>
+                <p className="font-bold font-serif">Banner Bearer</p>
+                <p>Rhea A. Narbay</p>
+            </div>
         </div>
-        <div className="pb-6">
+        <div className="pb-2">
             <div className="grid grid-cols-2 gap-4 pb-6">
                 <p className="col-span-2 font-serif font-bold text-center pb-2">
                     Mass Offerers
                 </p>
                 <div className="text-right">
                     <p className="font-bold font-serif">Host</p>
-                    <p>Engr. Rex Giovanni Rianzo</p>
-                    <p>Engr. Mary Ann Rianzo</p>
+                    <p>Mian Bernadette T. Cirujales</p>
                 </div>
                 <div className="text-left">
                     <p className="font-bold font-serif">Wine</p>
-                    <p>Engr. Lee Jessica Salve</p>
-                    <p>Engr. Lee Ann Salve</p>
+                    <p>Shena Mary P. Añasco</p>
                 </div>
                 <div className="text-right">
-                    <p className="font-bold font-serif">Candles</p>
-                    <p>Ar. Zhenkie Villanueva</p>
-                    <p>Ar. Rodel Besas</p>
+                    <p className="font-bold font-serif">Flowers</p>
+                    <p>Francis G.  Baobao</p>
+                    <p>Christopher R. Manhilot</p>
                 </div>
                 <div className="text-left">
                     <p className="font-bold font-serif">Fruits</p>
-                    <p>Ar. Danessa Anino</p>
-                    <p>Ms. Clowena Trigo</p>
+                    <p>Raph Alvin A. Asas</p>
+                    <p>Bernadette A. Calizar</p>
                 </div>
                 <div className="col-span-2">
-                    <p className="font-bold font-serif">Flowers</p>
-                    <p>Ms. Elaisha Paula Mondano</p>
-                    <p>Ms. Imma Conception Mondano</p>
+                    <p className="font-bold font-serif">Candles</p>
+                    <p>Mr. Phillip Glenn A. Libay</p>
+                    <p>Mrs. Mary Rose Cecille I.  Libay</p>
                 </div>
             </div>
         </div>
@@ -188,21 +189,21 @@ const PageThree = () => (
                 </p>
                 <div className="text-right">
                     <p className="font-bold font-serif">First Reading</p>
-                    <p>Ar. Christian Rey Lumantao</p>
+                    <p>Ralph Felvin M. Potane</p>
                 </div>
                 <div className="text-left">
                     <p className="font-bold font-serif">Responsorial Psalm</p>
-                    <p>Ms. Churchill Dhea Naranjo</p>
+                    <p>Clarissa Marie A. Talucod</p>
                 </div>
             </div>
             <div className="grid grid-cols-2 gap-4">
                 <div className="text-right">
                     <p className="font-bold font-serif">Second Reading</p>
-                    <p>Engr. Nika Bungabong</p>
+                    <p>Jo Kariza Celeste D. Ebojo</p>
                 </div>
                 <div className="text-left">
                     <p className="font-bold font-serif">Prayers of the Faithful</p>
-                    <p>Engr. Sheena Duliguez</p>
+                    <p>Churchill Dhea I. Naranjo</p>
                 </div>
             </div>
         </div>

@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import { SECTIONS, SECTION_IDS } from "./config/sections.config";
 import { useActiveSection } from "./hooks/useActiveSection";
 import Nav from "./components/nav";
+import Footer from "./components/footer";
 
 function Home() {
   const activeId = useActiveSection(SECTION_IDS);
@@ -14,6 +15,7 @@ function Home() {
           <Component key={id} />
         ))}
       </main>
+      <Footer />
     </>
   );
 }

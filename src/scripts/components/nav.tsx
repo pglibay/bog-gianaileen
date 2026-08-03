@@ -30,7 +30,7 @@ const Nav = ({ activeId }: NavProps) => {
                 key={id}
                 onClick={() => scrollTo(id)}
                 className={`group transition hover:text-dusty-rose ${
-                  isActive ? "text-dusty-rose" : ""
+                  isActive ? "text-dusty-rose font-semibold" : ""
                 }`}
               >
                 <Icon className="h-6 w-6 md:hidden" />
