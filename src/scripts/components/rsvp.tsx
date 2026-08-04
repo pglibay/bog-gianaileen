@@ -1,5 +1,4 @@
-import { useRef, useState, useEffect } from 'react';
-import { PlayIcon, PauseIcon } from "@heroicons/react/24/solid";
+import { useState, useEffect } from 'react';
 
 const Rsvp = () => {
   const weddingDate = new Date('2026-09-26T14:00:00').getTime();
@@ -25,31 +24,6 @@ const Rsvp = () => {
 
     return () => clearInterval(timer);
   }, [weddingDate]);
-
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const [isPlaying, setIsPlaying] = useState(false);
-
-  const togglePlay = () => {
-    if (videoRef.current) {
-      videoRef.current.volume = 0.25;
-      if (isPlaying) {
-        videoRef.current.pause();
-      } else {
-        videoRef.current.play();
-      }
-      setIsPlaying(!isPlaying);
-    }
-  };
-
-  const [showControls, setShowControls] = useState(false);
-
-  useEffect(() => {
-    if (!isPlaying) return;
-    if (!showControls) return;
-
-    const timer = setTimeout(() => setShowControls(false), 5000);
-    return () => clearTimeout(timer);
-  }, [showControls, isPlaying]);
 
   return (
     <section id="rsvp" className="flex flex-col md:flex-row scroll-mt-16 min-h-[calc(100dvh-64px)] w-full text-stone-800">
