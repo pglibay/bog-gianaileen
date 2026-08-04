@@ -32,7 +32,7 @@ const Weddetails = () => (
             <p className="text-dusty-rose font-bold font-serif">Dagohoy Grand Hall,</p>
             <p className="text-dusty-rose font-bold font-serif">Bohol Tropics Resort</p>
             <p>Graham Avenue, Tagbilaran City, Bohol</p>
-            <p>September 26, 2026 | 04:00PM</p>
+            <p>September 26, 2026 | 04:30PM</p>
             <a
                 href="https://maps.app.goo.gl/Ct72pvm1vMLuGnN97"
                 target="_blank"

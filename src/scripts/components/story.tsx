@@ -16,10 +16,10 @@ const story = () => {
                                 className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500"
                             />
                         </div>
-                        <span className="text-dusty-rose font-sans font-bold tracking-widest uppercase text-xs">February 14, 2020</span>
+                        <span className="text-dusty-rose font-sans font-bold tracking-widest uppercase text-xs">February 14, 2000</span>
                         <h3 className="text-xl font-serif my-2 text-slate-800">The First Hello</h3>
                         <p className="text-slate-600 text-sm leading-relaxed px-4">
-                            The quick brown fox jumps over the lazy dog.
+                            What started as elementary school classmates and close friends all through high school eventually grew into a lifelong love.
                         </p>
                     </div>
                     <div className="flex flex-col items-center text-center group">
@@ -30,10 +30,10 @@ const story = () => {
                             className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500"
                         />
                         </div>
-                        <span className="text-dusty-rose font-sans font-bold tracking-widest uppercase text-xs">February 14, 2020</span>
+                        <span className="text-dusty-rose font-sans font-bold tracking-widest uppercase text-xs">November 17, 2015</span>
                         <h3 className="text-xl font-serif my-2 text-slate-800">It's Official</h3>
                         <p className="text-slate-600 text-sm leading-relaxed px-4">
-                            Grumpy wizards made toxic brew for the evil Queen and Jack.
+                            Sitting across from each other, they realized that the person they had been searching for had been right there all along—and the rest is history.
                         </p>
                     </div>
                     <div className="flex flex-col items-center text-center group">
@@ -44,10 +44,10 @@ const story = () => {
                             className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500"
                         />
                         </div>
-                        <span className="text-dusty-rose font-sans font-bold tracking-widest uppercase text-xs">February 14, 2020</span>
+                        <span className="text-dusty-rose font-sans font-bold tracking-widest uppercase text-xs">July 21, 2024</span>
                         <h3 className="text-xl font-serif my-2 text-slate-800">The Big "Yes"</h3>
                         <p className="text-slate-600 text-sm leading-relaxed px-4">
-                            The quick brown fox jumps over the lazy dog.
+                            With quiet sincerity and a heart full of love, he made his promise for forever, and she said "yes" to a lifetime of new horizons together.
                         </p>
                     </div>
                     <div className="flex flex-col items-center text-center group">
@@ -58,7 +58,7 @@ const story = () => {
                             className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500"
                         />
                         </div>
-                        <span className="text-dusty-rose font-sans font-bold tracking-widest uppercase text-xs">February 14, 2020</span>
+                        <span className="text-dusty-rose font-sans font-bold tracking-widest uppercase text-xs">September 26, 2020</span>
                         <h3 className="text-xl font-serif my-2 text-slate-800">Our Wedding Day</h3>
                         <p className="text-slate-600 text-sm leading-relaxed px-4">
                             The day we say "I Do" and start our forever. We can't wait to see you there!

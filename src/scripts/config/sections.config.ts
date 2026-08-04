@@ -4,6 +4,7 @@ import {
   UserGroupIcon,
   ClockIcon,
   ClipboardDocumentListIcon,
+  InformationCircleIcon,
 } from "@heroicons/react/24/outline";
 import type { ComponentType } from "react";
 
@@ -25,6 +26,7 @@ import Story from "../components/story";
 import Entourage from "../components/entourage";
 import Details from "../components/details";
 import Rsvp from "../components/rsvp";
+import Faqs from "../components/faqs";
 
 export const SECTIONS: SectionConfig[] = [
   {
@@ -55,6 +57,11 @@ export const SECTIONS: SectionConfig[] = [
     id: "rsvp",
     Component: Rsvp,
     navItem: { label: "RSVP",            Icon: ClipboardDocumentListIcon },
+  },
+  {
+    id: "faqs",
+    Component: Faqs,
+    navItem: { label: "FAQs",            Icon: InformationCircleIcon },
   },
 ];
 

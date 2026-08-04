@@ -8,9 +8,9 @@ const wedtimeline = () => {
         { time: "4:30 PM", event: "Cocktail Hour", icon: "/icons/cocktail.png" },
         { time: "5:30 PM", event: "First Dance", icon: "/icons/dance.png" },
         { time: "5:45 PM", event: "Cake Cutting", icon: "/icons/cake.png" },
-        { time: "6:30 PM", event: "Dinner & Speeches", icon: "/icons/dinner.png" },
-        { time: "7:30 PM", event: "Evening Party", icon: "/icons/party.png" },
-        { time: "8:30 PM", event: "Carriages", icon: "/icons/carriage.png" },
+        { time: "6:00 PM", event: "Dinner", icon: "/icons/dinner.png" },
+        { time: "7:00 PM", event: "Evening Party", icon: "/icons/party.png" },
+        { time: "8:00 PM", event: "Carriages", icon: "/icons/carriage.png" },
     ]; 
 
     return(

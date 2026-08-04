@@ -22,13 +22,13 @@ const couple = () => {
                         <div className="space-y-4">
                             <h3 className="font-bold font-serif text-slate-700">The Groom, Gian</h3>
                             <p className="text-slate-600 leading-relaxed italic">
-                                The quick brown fox jumps over the lazy dog.
+                                Gian is a steadfast 3rd Officer who navigates the vast oceans with quiet strength and unwavering responsibility. Captivated by Aileen’s boundless warmth and joy, he simply cannot wait to call her, his wife.
                             </p>
                         </div>
                         <div className="space-y-4">
                             <h3 className="font-bold font-serif text-slate-700">The Bride, Aileen</h3>
                             <p className="text-slate-600 leading-relaxed italic">
-                                Grumpy wizards made toxic brew for the evil Queen and Jack.
+                                A dedicated public servant, Aileen is drawn to Gian's quiet and steady nature, deeply cherishing how his actions speak louder than words—especially in the way he loves.
                             </p>
                         </div>
                     </div>
