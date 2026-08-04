@@ -69,14 +69,6 @@ const Rsvp = () => {
             ))}
           </div>
         </div>
-
-        {/* <a 
-          className="px-12 py-4 bg-dusty-rose text-white rounded-full hover:bg-[#B8935F] transition-all duration-300 transform hover:scale-105 shadow-lg tracking-widest uppercase text-sm"
-          href="https://withjoy.com/phillipgotmaryied/rsvp"
-          target="_blank"
-        >
-          Click to RSVP!
-        </a> */}
         <a 
           className="px-12 py-4 bg-dusty-rose text-white rounded-full hover:bg-[#A8677A] transition-all duration-300 transform hover:scale-105 shadow-lg tracking-widest uppercase text-sm"
           href="/rsvp-closed"
@@ -87,44 +79,11 @@ const Rsvp = () => {
       </div>
 
       <div className="w-full md:w-1/2 h-[80vh] md:h-[calc(100dvh-64px)] relative overflow-hidden">
-        <video
-          ref={videoRef}
-          className="absolute inset-0 w-full h-full object-cover"
-          loop
-          playsInline
-          poster="/images/save.png"
-        >
-          <source src="/images/save.mp4" type="video/mp4"/>
-          Your browser does not support the video tag.
-        </video>
-
-        <div className="absolute inset-0 bg-black/10 pointer-events-none"></div>
-
-        <button
-          onClick={(e) => { e.stopPropagation(); togglePlay(); }}
-          className={`absolute inset-0 flex items-center justify-center transition-opacity duration-300
-            ${isPlaying && !showControls ? "opacity-0" : "opacity-100"}`}
-        >
-          <div className="bg-black/40 hover:bg-black/60 text-white rounded-full p-4 transition">
-            {isPlaying ? (
-              <PauseIcon className="h-8 w-8" />
-            ) : (
-              <PlayIcon className="h-8 w-8" />
-            )}
-          </div>
-        </button>
-        {/* <button
-          onClick={togglePlay}
-          className="absolute inset-0 flex items-center justify-center group"
-        >
-          <div className="bg-black/40 group-hover:bg-black/60 text-white rounded-full p-4 transition">
-            {isPlaying ? (
-              <PauseIcon className="h-8 w-8" />
-            ) : (
-              <PlayIcon className="h-8 w-8" />
-            )}
-          </div>
-        </button> */}
+        <img 
+          src="/images/story4.png" 
+          alt="The Wedding" 
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+        />
       </div>
     </section>
   );
