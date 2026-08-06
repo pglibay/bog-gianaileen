@@ -16,7 +16,7 @@ const story = () => {
                                 className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500"
                             />
                         </div>
-                        <span className="text-dusty-rose font-sans font-bold tracking-widest uppercase text-xs">February 14, 2000</span>
+                        <span className="text-dusty-rose font-sans font-bold tracking-widest uppercase text-xs">Elementary Days</span>
                         <h3 className="text-xl font-serif my-2 text-slate-800">The First Hello</h3>
                         <p className="text-slate-600 text-sm leading-relaxed px-4">
                             What started as elementary school classmates and close friends all through high school eventually grew into a lifelong love.

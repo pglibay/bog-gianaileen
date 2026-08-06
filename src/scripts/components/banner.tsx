@@ -8,11 +8,11 @@ const banner = () => {
                 className="relative min-h-[calc(100dvh-64px)] w-full flex items-center justify-center bg-center bg-cover bg-no-repeat bg-[url('/images/heroga.jpg')]"
             >
                 <div className="flex flex-col items-center text-center gap-3 max-w-4xl px-4 overflow-visible">
-                    <h1 className="text-4xl md:text-6xl font-cursive text-dusty-rose drop-shadow-sm md:drop-shadow-lg py-2 px-2 leading-loose overflow-visible">
+                    <h1 className="text-3xl md:text-6xl font-cursive text-dusty-rose drop-shadow-sm md:drop-shadow-lg py-2 px-2 leading-loose overflow-visible">
                         Gian Arnold
                     </h1>
                     <p className="italic text-slate-400">and</p>
-                    <h1 className="text-4xl md:text-6xl font-cursive text-dusty-rose drop-shadow-sm md:drop-shadow-lg py-2 px-2 leading-loose overflow-visible">
+                    <h1 className="text-3xl md:text-6xl font-cursive text-dusty-rose drop-shadow-sm md:drop-shadow-lg py-2 px-2 leading-loose overflow-visible">
                         Aileen
                     </h1>
                     <div className="text-xs md:text-sm font-medium text-slate-400 italic">
