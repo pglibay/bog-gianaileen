@@ -3,7 +3,7 @@ import { useState } from 'react';
 const PageOne = () => {
     const prinipalSponsors = {
         male: ["Mr. Dave Rey B. Alaan", "Engr. Orencio M. Apale", "PLT Rogelio A. Baluran", "Mr. Victoriano B. Caybot", "Capt. Renerio Daquio", "Mr. Arnold R. Garcia", "Mr. Melvin C. Jabajab", "Mr. Mario L. Israel", "Engr. Arnold L. Labunog", "Mr. Jay L. Lancila", "Mr. Serecio I. Locot", "Mr. Joseph P. Namor", "Mr. Sercio L. Narbay", "Mr. Ramon Operio", "Mr. Cresencio Raut", "Mr. Minardo I. Romuga", "Engr. Ruel I. Romuga", "Mr. Salvador I. Romuga", "Mr. Eulie I. Saturinas", "Engr. Gilbert O. Suarez", "Mr. Mario Jr. S. Ubas", "Atty. Raymond Ben K. Uy"],
-        female: ["Mrs. Irene O. Alaan", "Engr. Erlinda A. Apale", "Mrs. Rosario Fe G. Baluran", "Mrs. Conception Caybot", "Mrs. Peregrina C. Daquio", "Mrs. Rosette M. Garcia", "Mrs. Judy U. Jabajab", "Mrs. Milagros B. Israel", "Mrs. Maria Carmen B. Labunog", "Mrs. Merlyn P. Lancila", "Mrs. Lea M. Locot", "Mrs. Loreto T. Namor, CPA", "Mrs. Rowena A. Narbay", "Ms. Gloricil P. Fudalan", "Ma. Cecilia N. Raut", "Mrs. Venus I. Iyog", "Ms. Daisy L. Israel", "Mrs. Marciana B. Romuga", "Mrs. Jean C. Saturinas", "Mrs. Marlyn L. Suarez", "Ms. Ana Fe M. Manding", "Ms. Clarice Elaine B. Davila"]
+        female: ["Mrs. Irene O. Alaan", "Engr. Erlinda A. Apale", "Mrs. Rosario Fe G. Baluran", "Mrs. Conception Caybot", "Mrs. Peregrina C. Daquio", "Mrs. Rosette M. Garcia", "Mrs. Judy U. Jabajab", "Mrs. Milagros B. Israel", "Mrs. Maria Carmen B. Labunog", "Mrs. Merlyn P. Lancila", "Mrs. Lea M. Locot", "Mrs. Loreto T. Namor, CPA", "Mrs. Rowena A. Narbay", "Ms. Gloricil P. Fudalan", "Mrs. Ma. Cecilia N. Raut", "Mrs. Venus I. Iyog", "Ms. Daisy L. Israel", "Mrs. Marciana B. Romuga", "Mrs. Jean C. Saturinas", "Mrs. Marlyn L. Suarez", "Ms. Ana Fe M. Manding", "Ms. Clarice Elaine B. Davila"]
     };
 
     return (
@@ -52,7 +52,7 @@ const PageOne = () => {
 const PageTwo = () => {
     const party = {
         male: ["Mr. Kenneth Agripo", "Mr. Raymond Abellanosa", "Mr. Karl Patrick A. Galbo", "Mr. Nelson Agripo Jr.", "Engr. Mark Ross Kelp B. Israel", "Mr. Jeff Kenneth L. Duran"],
-        female: ["Ms. Claire Jezreel I. Iyog", "Ms. Cynthia Manding", "Engr. Mary Rose Sheena B. Israel", "Ms. Mailyn G. Pacquiao", "Ms. Glorielene Mijares", "Engr. Mary Rose Rhofian Israel"]
+        female: ["Ms. Claire Jezreel I. Iyog", "Ms. Cynthia Manding", "Engr. Mary Rose Sheena B. Israel", "Ms. Mailyn G. Pacquiao", "Ms. Glorielene Mijares", "Engr. Mary Rose Rhofian B. Israel"]
     }
 
     return (
@@ -65,6 +65,16 @@ const PageTwo = () => {
                 <div className="text-left">
                     <p className="font-bold font-serif">Maid of Honor</p>
                     <p>Ms. Jenny Agripo</p>
+                </div>
+            </div>
+            <div className="grid grid-cols-2 gap-4 pb-6">
+                <div className="text-right">
+                    <p className="font-bold font-serif"></p>
+                    <p></p>
+                </div>
+                <div className="text-left">
+                    <p className="font-bold font-serif">Man of Honor</p>
+                    <p>Mr. Pedz Ocdenaria Quiñal</p>
                 </div>
             </div>
 
@@ -191,7 +201,7 @@ const PageThree = () => (
                 </p>
                 <div className="text-right">
                     <p className="font-bold font-serif">First Reading</p>
-                    <p>Mr. Ralph Felvin M. Potane</p>
+                    <p>Mr. Ralphfelvin M. Potane</p>
                 </div>
                 <div className="text-left">
                     <p className="font-bold font-serif">Responsorial Psalm</p>
