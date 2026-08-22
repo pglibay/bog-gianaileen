@@ -4,8 +4,8 @@ const wedtimeline = () => {
     const schedule = [
         { time: "1:30 PM", event: "Processional", icon: "/icons/arrival.png" },
         { time: "2:00 PM", event: "Wedding Ceremony", icon: "/icons/ceremony.png" },
-        { time: "3:30 PM", event: "Photo Shoot", icon: "/icons/photo.png" },
-        { time: "4:00 PM", event: "Cocktail Hour", icon: "/icons/cocktail.png" },
+        { time: "4:00 PM", event: "Photo Shoot", icon: "/icons/photo.png" },
+        { time: "4:30 PM", event: "Cocktail Hour", icon: "/icons/cocktail.png" },
         { time: "5:30 PM", event: "First Dance", icon: "/icons/dance.png" },
         { time: "5:45 PM", event: "Cake Cutting", icon: "/icons/cake.png" },
         { time: "6:00 PM", event: "Dinner", icon: "/icons/dinner.png" },
