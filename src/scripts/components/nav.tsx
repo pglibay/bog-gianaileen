@@ -18,7 +18,7 @@ const Nav = ({ activeId }: NavProps) => {
             onClick={() => navigate("/")}
             className="cursor-pointer"
         >
-          <img src="./pc.svg" alt="GA" className="h-10 w-auto" />
+          <img src="./ga.svg" alt="G|A" className="h-10 w-auto" />
         </button>
         <nav className="flex items-center space-x-6">
           {NAV_SECTIONS.map(({ id, navItem }) => {
