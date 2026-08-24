@@ -13,7 +13,7 @@ const PageOne = () => {
                 <p>Fr. Agerio V. Paña</p>
             </div>
             <div className="grid grid-cols-2 gap-4 pb-6">
-                <div className="text-right">
+                <div className="text-right [direction:rtl]">
                     <p className="font-bold font-serif">Parents of the Groom</p>
                     <p>Mr. Arnulfo S. Sansan</p>
                     <p>Mrs. Gigi I. Sansan</p>
@@ -33,7 +33,7 @@ const PageOne = () => {
                 <div className="space-y-4">
                     <ul className="space-y-2">
                         {prinipalSponsors.male.map((name, index) => (
-                            <li key={index} className="text-right leading-none">{name}</li>
+                            <li key={index} className="text-right leading-none [direction:rtl]">{name}</li>
                         ))}
                     </ul>
                 </div>
@@ -58,7 +58,7 @@ const PageTwo = () => {
     return (
         <div className="text-center">
             <div className="grid grid-cols-2 gap-4 pb-6">
-                <div className="text-right">
+                <div className="text-right [direction:rtl]">
                     <p className="font-bold font-serif">Best Man</p>
                     <p>Mr. Gerald L. Grado</p>
                 </div>
@@ -68,7 +68,7 @@ const PageTwo = () => {
                 </div>
             </div>
             <div className="grid grid-cols-2 gap-4 pb-6">
-                <div className="text-right">
+                <div className="text-right [direction:rtl]">
                     <p className="font-bold font-serif"></p>
                     <p></p>
                 </div>
@@ -79,7 +79,7 @@ const PageTwo = () => {
             </div>
 
             <div className="grid grid-cols-2 gap-4 pb-8">
-                <div className="text-right">
+                <div className="text-right [direction:rtl]">
                     <p className="font-bold font-serif mb-1">Groomsmen</p>
                     <ul className="space-y-2">
                         {party.male.map((name, index) => (
@@ -122,7 +122,7 @@ const PageTwo = () => {
 
             <div className="text-center pb-6">
                 <div className="grid grid-cols-2 gap-4 pb-4">
-                    <div className="text-right">
+                    <div className="text-right [direction:rtl]">
                         <p className="font-bold font-serif">Bible Bearer</p>
                         <p>Joseph Kairus I. Celmar </p>
                     </div>
@@ -132,7 +132,7 @@ const PageTwo = () => {
                     </div>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
-                    <div className="text-right">
+                    <div className="text-right [direction:rtl]">
                         <p className="font-bold font-serif">Coin Bearer</p>
                         <p>Rohan Matthew S. Narbay</p>
                     </div>
@@ -153,7 +153,7 @@ const PageThree = () => (
                 Flower Girls
             </p>
             <div className="grid grid-cols-2 gap-4 mb-4">
-                <div className="text-right">
+                <div className="text-right [direction:rtl]">
                     <p>Mary Kaitlyn I. Celmar</p>
                     <p>Aubrielle Fatima T. Caliso</p>
                 </div>
@@ -168,7 +168,7 @@ const PageThree = () => (
                 <p className="col-span-2 font-serif font-bold text-center pb-2">
                     Mass Offerers
                 </p>
-                <div className="text-right">
+                <div className="text-right [direction:rtl]">
                     <p className="font-bold font-serif">Host</p>
                     <p>Ms. Mian Bernadette T. Cirujales</p>
                 </div>
@@ -176,7 +176,7 @@ const PageThree = () => (
                     <p className="font-bold font-serif">Wine</p>
                     <p>Ms. Shena Mary P. Añasco</p>
                 </div>
-                <div className="text-right">
+                <div className="text-right [direction:rtl]">
                     <p className="font-bold font-serif">Flowers</p>
                     <p>Mr. Francis G.  Baobao</p>
                     <p>Mr. Christopher R. Manhilot</p>
@@ -199,7 +199,7 @@ const PageThree = () => (
                 <p className="col-span-2 font-serif font-bold text-center pb-2">
                     Liturgical Sponsors
                 </p>
-                <div className="text-right">
+                <div className="text-right [direction:rtl]">
                     <p className="font-bold font-serif">First Reading</p>
                     <p>Mr. Ralphfelvin M. Potane</p>
                 </div>
@@ -209,7 +209,7 @@ const PageThree = () => (
                 </div>
             </div>
             <div className="grid grid-cols-2 gap-4">
-                <div className="text-right">
+                <div className="text-right [direction:rtl]">
                     <p className="font-bold font-serif">Second Reading</p>
                     <p>Mrs. Jo Kariza Celeste D. Ebojo</p>
                 </div>
