@@ -11,7 +11,7 @@ const story = () => {
                     <div className="flex flex-col items-center text-center group">
                         <div className="relative w-full overflow-hidden rounded-2xl shadow-md mb-6 bg-white p-2">
                             <img 
-                                src="/images/story1.png" 
+                                src="/images/story1.jpeg" 
                                 alt="When we met" 
                                 className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500"
                             />
@@ -25,7 +25,7 @@ const story = () => {
                     <div className="flex flex-col items-center text-center group">
                         <div className="relative w-full overflow-hidden rounded-2xl shadow-md mb-6 bg-white p-2">
                         <img 
-                            src="/images/story2.png" 
+                            src="/images/story2.jpg" 
                             alt="Our Relationship" 
                             className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500"
                         />
@@ -39,7 +39,7 @@ const story = () => {
                     <div className="flex flex-col items-center text-center group">
                         <div className="relative w-full overflow-hidden rounded-2xl shadow-md mb-6 bg-white p-2">
                         <img 
-                            src="/images/story3.png" 
+                            src="/images/story3.jpg" 
                             alt="The Proposal" 
                             className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500"
                         />
@@ -53,7 +53,7 @@ const story = () => {
                     <div className="flex flex-col items-center text-center group">
                         <div className="relative w-full overflow-hidden rounded-2xl shadow-md mb-6 bg-white p-2">
                         <img 
-                            src="/images/story4.png" 
+                            src="/images/story4.jpeg" 
                             alt="The Wedding" 
                             className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500"
                         />

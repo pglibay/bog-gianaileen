@@ -5,7 +5,7 @@ const couple = () => {
                 <div className="md:col-span-1">
                     <div className="relative overflow-hidden rounded-2xl shadow-xl bg-stone-50">
                         <img 
-                            src="/images/couple.png" 
+                            src="/images/couple.jpg" 
                             alt="Gian & Aileen" 
                             className="object-cover w-full h-full hover:scale-105 transition-transform duration-500"
                         />
