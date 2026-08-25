@@ -1,12 +1,10 @@
 import { NAV_SECTIONS } from "../config/sections.config";
-import { useNavigate } from "react-router";
 
 interface NavProps {
   activeId: string;
 }
 
 const Nav = ({ activeId }: NavProps) => {
-  const navigate = useNavigate();
   const scrollTo = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
@@ -15,7 +13,7 @@ const Nav = ({ activeId }: NavProps) => {
     <div className="sticky top-0 z-50 bg-white shadow">
       <div className="container mx-auto px-4 flex items-center justify-between p-5 lg:flex-row">
         <button
-            onClick={() => navigate("/")}
+            onClick={() => scrollTo('banner')}
             className="cursor-pointer"
         >
           <img src="./ga.svg" alt="G|A" className="h-10 w-auto" />

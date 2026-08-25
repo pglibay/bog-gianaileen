@@ -54,7 +54,7 @@ const Rsvp = () => {
 
       <div className="w-full md:w-1/2 h-[80vh] md:h-[calc(100dvh-64px)] relative overflow-hidden">
         <img 
-          src="/images/save2.jpeg" 
+          src="/images/save.jpeg" 
           alt="The Wedding" 
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />

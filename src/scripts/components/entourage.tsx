@@ -51,7 +51,7 @@ const PageOne = () => {
 
 const PageTwo = () => {
     const party = {
-        male: ["Mr. Kenneth Agripo", "Mr. Raymond Abellanosa", "Mr. Karl Patrick A. Galbo", "Mr. Nelson Agripo Jr.", "Engr. Mark Ross Kelp B. Israel", "Mr. Jeff Kenneth L. Duran"],
+        male: ["Mr. Kenneth Agripo", "Mr. Raymond Abellanosa", "Mr. Karl Patrick A. Galbo", "Mr. Nelson Agripo Jr", "Engr. Mark Ross Kelp B. Israel", "Mr. Jeff Kenneth L. Duran"],
         female: ["Ms. Claire Jezreel I. Iyog", "Ms. Cynthia Manding", "Engr. Mary Rose Sheena B. Israel", "Ms. Mailyn G. Pacquiao", "Ms. Glorielene Mijares", "Engr. Mary Rose Rhofian B. Israel"]
     }
 
@@ -107,12 +107,12 @@ const PageTwo = () => {
                     <p>Mrs. Mary Rose Riscille I. Celmar</p>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
-                    <div>
+                    <div className="text-right">
                         <p className="font-bold font-serif">Veil</p>
                         <p>Engr. Rechie T. Caliso</p>
                         <p>Mrs. Carloe Niña T. Caliso</p>
                     </div>
-                    <div>
+                    <div className="text-left">
                         <p className="font-bold font-serif">Cord</p>
                         <p>Mr. Vincy Irenie A. Polinar</p>
                         <p>Engr. Xandra Ysabelle E. Polinar</p>

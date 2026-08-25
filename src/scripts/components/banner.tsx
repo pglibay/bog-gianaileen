@@ -5,7 +5,7 @@ const banner = () => {
         <>
             <section
                 id="banner"
-                className="relative min-h-[calc(100dvh-64px)] w-full flex items-center justify-center bg-center bg-cover bg-no-repeat bg-[url('/images/hero.jpg')]"
+                className="relative min-h-[calc(100dvh-64px)] w-full flex items-center justify-center bg-center bg-cover bg-no-repeat bg-[url('/images/hero.jpeg')]"
             >
                 <div className="absolute inset-0 bg-white/60" />
 
