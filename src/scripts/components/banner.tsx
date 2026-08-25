@@ -13,7 +13,7 @@ const banner = () => {
                     <h1 className="text-2xl md:text-6xl font-cursive text-dark-rose drop-shadow-sm md:drop-shadow-lg py-2 px-2 leading-loose overflow-visible">
                         Gian Arnold
                     </h1>
-                    <p className="italic text-slate-600">and</p>
+                    <p className="text-2xl md:text=4xl font-cursive italic text-slate-600">  &</p>
                     <h1 className="text-2xl md:text-6xl font-cursive text-dark-rose drop-shadow-sm md:drop-shadow-lg py-2 px-2 leading-loose overflow-visible">
                         Aileen
                     </h1>
