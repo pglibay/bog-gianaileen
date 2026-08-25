@@ -47,7 +47,7 @@ const story = () => {
                         <span className="text-dusty-rose font-sans font-bold tracking-widest uppercase text-xs">July 21, 2024</span>
                         <h3 className="text-xl font-serif my-2 text-slate-800">The Big "Yes"</h3>
                         <p className="text-slate-600 text-sm leading-relaxed px-4">
-                            With quiet sincerity and a heart full of love, he made his promise for forever, and she said "yes" to a lifetime of new horizons together.
+                            With quiet sincerity and a heart full of love, he made his promise of forever, and she said "yes" to a lifetime of new horizons together.
                         </p>
                     </div>
                     <div className="flex flex-col items-center text-center group">
