@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+// import { Link } from 'react-router';
 
 const Rsvp = () => {
   const weddingDate = new Date('2026-09-26T14:00:00').getTime();
@@ -43,12 +44,13 @@ const Rsvp = () => {
             ))}
           </div>
         </div>
-        <a 
+        <a href="https://forms.gle/piSLLTAbc7ZTBE3F6" className="mt-6 inline-flex items-center justify-center rounded-full bg-dusty-rose px-8 py-3 text-white font-medium transition hover:bg-[#A8677A]">Click to RSVP!</a>
+        {/* <Link
           className="px-12 py-4 bg-dusty-rose text-white rounded-full hover:bg-[#A8677A] transition-all duration-300 transform hover:scale-105 shadow-lg tracking-widest uppercase text-sm"
-          href="https://forms.gle/piSLLTAbc7ZTBE3F6"
+          to="/rsvp"
         >
           Click to RSVP!
-        </a>
+        </Link> */}
         
       </div>
 

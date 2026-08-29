@@ -3,6 +3,7 @@ import { SECTIONS, SECTION_IDS } from "./config/sections.config";
 import { useActiveSection } from "./hooks/useActiveSection";
 import Nav from "./components/nav";
 import Footer from "./components/footer";
+import RsvpPage from "./pages/rsvp";
 
 function Home() {
   const activeId = useActiveSection(SECTION_IDS);
@@ -25,6 +26,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/rsvp" element={<RsvpPage />} />
       </Routes>
     </BrowserRouter>
   )

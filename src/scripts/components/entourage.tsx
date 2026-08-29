@@ -211,7 +211,7 @@ const PageThree = () => (
             <div className="grid grid-cols-2 gap-4">
                 <div className="text-right [direction:rtl]">
                     <p className="font-bold font-serif">Second Reading</p>
-                    <p>Mrs. Jo Kariza Celeste D. Ebojo</p>
+                    <p>Ms. Catherine Machete</p>
                 </div>
                 <div className="text-left">
                     <p className="font-bold font-serif">Prayers of the Faithful</p>
